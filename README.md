@@ -15,6 +15,6 @@ Simple python 2.7 implementation of public info extractor from vk.com by user_id
 
 `data = extractor.extract_info(some_user_id) # info extracting`
 
-`extr.write_jl_gz('some_file_path.jl.gz', data) # saving data to compressed file`
+`extractor.write_jl_gz('some_file_path.jl.gz', data) # saving data to compressed file`
 
-`extr.write_jl('some_file_path.jl', data) # or saving data to file as it is`
+`extractor.write_jl('some_file_path.jl', data) # or saving data to file as it is`
